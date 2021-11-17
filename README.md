@@ -14,3 +14,6 @@ This repository is licensed under [MIT](../LICENSE) (c) 2019 GitHub, Inc.
 git fetch origin
 git checkout -b add-headers origin/add-headers
 git merge main
+git checkout main
+git merge --no-ff add-headers
+git push origin main
